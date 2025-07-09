@@ -1,0 +1,49 @@
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# dotenv environment variables
+.env
+
+# VS Code settings
+.vscode/
+
+# MySQL dumps or test data
+*.sql
+*.dump
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# pytest
+.pytest_cache/
+
+# Swagger generated files (if any)
+docs/
+
+# Migrations (optional — if regenerating often)
+# ** Uncomment if you don't want to track initial migrations
+# */migrations/
+# !*/migrations/__init__.py
