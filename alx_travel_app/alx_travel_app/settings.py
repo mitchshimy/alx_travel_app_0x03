@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'alx_travel_app.wsgi.application'
 # Database configuration using environment variables
 DATABASES = {
     'default': {
-        'ENGINE': 'mysql.connector.django',
+        'ENGINE': env('DB_ENGINE'),
         'NAME': env('DB_NAME'),
         'USER': env('DB_USER'),
         'PASSWORD': env('DB_PASSWORD'),
